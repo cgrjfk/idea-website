@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+</head>
+<body>
+  <!--导航栏-->
+  <section id="header">
+      <a href="#"><img src="img/other-img/logo.png" alt="logo" width="52px" height="52px"></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html" target="_blank">home</a></li>
+          <li><a href="blog.html" target="_blank">blog</a></li>
+          <li><a href="about.html" target="_blank">about</a></li>
+          <li><a href="personal.html" target="_blank">personal</a></li>
+          <li><a class="active" href="contact.html" target="_blank">contact</a></li>
+          <li><a href="index.html" target="_blank"><i class="fa-solid fa-house-chimney"></i></a></li>
+        </ul>
+      </div>
+  </section>
+  <!--主体内容-->
+  <main>
+    <!--banner-->
+    <section id="contact" class="section-m1 text-center">
+        <div class="text">
+           <h3>#direction</h3>
+           <h2>you can <span>find my location</span> by this page</h2>
+        </div>
+      </section>
+    <!--map-->
+    <section id="direction" class="loaction">
+       <div class="description">
+           <h3>You can find my loaction by google map</h3>
+           <h5>introduction</h5>
+           <p><i class="fa-solid fa-map-location-dot"></i><strong> Address:</strong>Fakkle Mainland County</p>
+           <p><i class="fa-solid fa-phone"></i><strong> Phone:</strong>7001 45 3650 45</p>
+           <p><i class="fa-solid fa-clock"></i><strong> Hour:</strong>10:00-18:00,June-December</p>
+           <p><i class="fa-sharp fa-solid fa-heart"></i><strong> Hobby:</strong>read something interesting</p>
+           <p><i class="fa-sharp fa-solid fa-database"></i><strong> Subject:</strong>Computer Science and Technology</p>
+       </div> 
+       <div id="map" class="map-class">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d101189.71418478599!2d117.01909806608181!3d34.78703711477842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1675170489151!5m2!1sen!2sus" width="750px" height="450px" style="border:dashed solid rgb(206, 164, 164);" allowfullscreen="never" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+       </div>
+    </section>
+    <!--form-->
+    <section id="form-table" class="form">
+      <div class="text">
+          <h3 class="text-lg-start text-dark">Here is the form and you can send you email</h3>
+          <h4 class="text-lg-start text-success">Have a nice day!</h4>
+      </div> 
+      <form class="row g-3 needs-validation" novalidate>
+         <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Firstname</label>
+          <input type="text" class="form-control" id="validationCustom01" value="San" required>
+          <div class="valid-feedback">
+           Nice!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Lastname</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Zhang" required>
+          <div class="valid-feedback">
+            Nice!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="username@example.com">
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">address</label>
+          <input type="text" class="form-control" id="validationCustom03" required placeholder="zhijiang fandou Street ">
+          <div class="invalid-feedback">
+            Please provide a valid address.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose</option>
+            <option>Shandong</option>
+            <option>Zhejiang</option>
+            <option>Jiangsu</option>
+            <option>Hebei</option>
+            <option>Guangxi</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required placeholder="File.zip">
+          <div class="invalid-feedback">
+            None  None valid-feedback
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              None valid-feedback
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="normal" type="submit">Submit form</button>
+        </div>
+      </form>
+    </section>
+    <section id="endPage" class="section-p1 section-m1">
+        <div class="newtext">
+        <h4>contact with me</h4>
+        <p>Last page<span>Have a nice day!</span></p>
+        </div>
+      </section>
+  </main>
+  <!--footer-->
+  <footer class="section-p1">
+    <div class="col">
+      <a href="https://github.com/cgrjfk/Connor-sauce" target="_blank"><img src="img/other-img/logo.png" alt="logo" width="45px" height="45px"></a>
+      <h4>contact</h4>
+      <p><strong>Address:</strong> Fakkle Mainland County</p>
+      <p><strong>Phone:</strong>7001 45 3650 45</p>
+      <p><strong>Hour:</strong>10:00-18:00,June-December</p>
+      <div class="follow">
+           <h4>Follow us</h4>
+           <div class="icon">
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-weixin"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-qq"></i>
+           </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>blog</h4>
+      <a href="#">about us</a>
+      <a href="#">pocture</a>
+      <a href="#">information</a>
+      <a href="#">news</a>
+      <a href="#">history</a>
+    </div>
+    <div class="col">
+      <h4>about</h4>
+      <a href="#">about us</a>
+      <a href="#">newsletter</a>
+      <a href="#">information</a>
+      <a href="#">Get it</a>
+      <a href="#">help</a>
+    </div>
+    <div class="col person">
+       <h4>Person</h4>
+       <p>The history of many heroes</p>
+       <p>Find more secret</p>
+       <div> 
+        <a href="about.html"><img src="img/other-img/contact.png" alt="contact" width="50px" height="50px" class="img-src"></a>
+        <a href="contact.html"><img src="img/other-img/dircation.png" alt="dircation" width="50px" height="50px" class="img-src"></a>
+       </div>
+    </div>
+  </footer>
+  <section>
+    <div class="copy-right">
+      <p><i class="fa-solid fa-copyright"></i>2023 Rui finished it by using html css js bootstrap and some api</p>
+    </div>
+  </section>
+  <script src="scipt.js"></script>
+</body>
+</html>

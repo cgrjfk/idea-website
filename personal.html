@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>personal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/default-1.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+  <!--导航栏-->
+  <section id="header">
+      <a href="#"><img src="img/other-img/logo.png" alt="logo" width="52px" height="52px"></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">home</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a class="active" href="personal.html">personal</a></li>
+          <li><a href="contact.html" target="_blank">contact</a></li>
+          <li><a href="index.html"><i class="fa-solid fa-house-chimney"></i></a></li>
+        </ul>
+      </div>
+  </section>
+  <!--主体内容-->
+  <main>    
+   <!--动画-->
+   <picture id="picture">
+     <div class="container-1">
+    <header>
+      <h1>nice canvas</span></h1>	
+      <p>Life is a song</p>
+    </header>
+    <div class="ip-slideshow-wrapper">
+      <nav>
+        <span class="ip-nav-left"></span>
+        <span class="ip-nav-right"></span>
+      </nav>
+      <div class="ip-slideshow"></div>
+    </div>
+   </div>
+   </picture>
+  
+  <script src="js/particlesSlideshow.js"></script>
+   <!--图片-start-->
+    <article class="htmleaf-container">
+        <h2>Good looking pictures</h2>
+        <p>Two-dimensional beauty</p>
+		<div class="container">
+			<div class="row fooContainer mt50">
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-1.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-2.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-3.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-11.jpg"></div>
+			</div>
+			<div class="row fooContainer mt50">
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-5.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-14.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-7.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-8.jpg"></div>
+			</div>
+			<div id="chocolate" class="row mt50">
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-15.png"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-16.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-18.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-24.jpg"></div>
+			</div>
+			<div class="row fooContainer mt50">
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-19.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-20.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-29.jpg"></div>
+				<div class="col-md-3 fooReveal"><img style="cursor: pointer;" class="img-thumbnail" src="img/plugins-img/img-25.jpg"></div>
+			</div>
+		</div>
+	</article>
+	<script src="dist/scrollreveal.min.js"></script>
+    <script>
+      var fooReveal = {
+		  delay    : 200,
+		  distance : '200px',
+		  easing   : 'ease-in-out',
+		  rotate   : { z: 10 },
+		  scale    : 1.1,
+		  reset    : true
+		};
+		window.sr = ScrollReveal()
+		  .reveal( '.fooReveal', fooReveal )
+		  .reveal( '#chocolate', { delay: 500, scale: 0.9 ,reset:true } );
+    </script>
+    <!--图片-end-->
+    <script src="script.js"></script>
+  </main>
+  <!--footer-->
+  <footer class="section-p1">
+    <div class="col">
+      <a href="https://github.com/cgrjfk/Connor-sauce" target="_blank"><img src="img/other-img/logo.png" alt="logo" width="45px" height="45px"></a>
+      <h4>contact</h4>
+      <p><strong>Address:</strong> Fakkle Mainland County</p>
+      <p><strong>Phone:</strong>7001 45 3650 45</p>
+      <p><strong>Hour:</strong>10:00-18:00,June-December</p>
+      <div class="follow">
+           <h4>Follow us</h4>
+           <div class="icon">
+            <i class="fab fa-facebook-messenger"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-weixin"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-qq"></i>
+           </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>blog</h4>
+      <a href="#">about us</a>
+      <a href="#">pocture</a>
+      <a href="#">information</a>
+      <a href="#">news</a>
+      <a href="#">history</a>
+    </div>
+    <div class="col">
+      <h4>about</h4>
+      <a href="#">about us</a>
+      <a href="#">newsletter</a>
+      <a href="#">information</a>
+      <a href="#">Get it</a>
+      <a href="#">help</a>
+    </div>
+    <div class="col person">
+       <h4>Person</h4>
+       <p>The history of many heroes</p>
+       <p>Find more secret</p>
+       <div> 
+        <a href="about.html"><img src="img/other-img/contact.png" alt="contact" width="50px" height="50px" class="img-src"></a>
+        <a href="contact.html"><img src="img/other-img/dircation.png" alt="dircation" width="50px" height="50px" class="img-src"></a>
+       </div>
+    </div>
+  </footer>
+  <section>
+    <div class="copy-right">
+      <p><i class="fa-solid fa-copyright"></i>2023 Rui finished it by using html css js bootstrap and some api</p>
+    </div>
+  </section>
+</body>
+</html>

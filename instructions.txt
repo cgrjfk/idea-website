@@ -1,0 +1,11 @@
+这是我制作的一个网站：这个网站大约花了我十天时间，我通过YouTube up Tech2 etc的视频了解了很多
+的知识，YouTube的视频名称是：Build and Deploy Ecommerce Website With HTML CSS JavaScript | Full Responsive Ecommerce Course FREE
+视频链接是：https://www.youtube.com/watch?v=P8YuWEkTeuE
+我的网站对他的设计和网页排版多有借鉴
+此外，我采用了Bootstrap和【jQuery之家的两个插件】 在此列出：
+jQuery之家：http://www.htmleaf.com/
+bootstrap css CDN:https://www.w3school.com.cn/lib/bs/bootstrap.css
+bootstrap js CDN:https://www.w3school.com.cn/lib/bs/bootstrap.js
+另外板娘的调用网址为：https://wdvipo.com/
+Api：https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js
+总之：如果有问题的话，GitHub联系，Have a nice day!
