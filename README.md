@@ -1,6 +1,7 @@
+# introduction
 This is a two-dimensional  website I createed by html, css,javascript, bootstap and some plugins.
 As you can see, there are two plugins.
-I just list all of them!
+# links
 First:I draw lessons from youtube video.The video is Build and Deploy Ecommerce Website With HTML CSS JavaScript | Full Responsive Ecommerce Course FREE - YouTube.
 Second：I used some bootstarp and plugins:
 the website address is http://www.htmleaf.com/html5/html5-canvas/20141012156.html,
